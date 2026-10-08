@@ -1,56 +1,37 @@
-# Welcome to your Expo app 👋
+# RePDF 📄🔗
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**RePDF** is a streamlined and user-friendly Android application designed to make combining multiple PDF documents effortless. Whether you are organizing work reports, compiling study notes, or managing personal documents, RePDF handles your merging needs quickly and securely right on your device.
 
-## Get started
+## ✨ Key Features
 
-1. Install dependencies
+- 📂 **Simple File Selection:** Easily browse and select multiple PDF files directly from your device's storage.
+- 🛡️ **Smart Validation:** Prevents accidental merges by ensuring you have selected at least two valid PDF files before proceeding.
+- 🛠️ **Pre-Merge Management:**
+  - **Reorder:** Drag and drop files to arrange them in the exact order you want them to appear in the final document.
+  - **Preview:** View individual PDFs within the app to confirm you have the right files.
+  - **Delete:** Remove any mistakenly added files from your selection list with a single tap.
+- ⚡ **Fast & Seamless Merging:** Combines your selected PDFs into a single, cohesive document in seconds.
+- 🚀 **Post-Merge Actions:**
+  - **Preview:** Instantly view your newly merged PDF.
+  - **Save:** Save the generated file directly to a customized folder on your device.
+  - **Share:** Quickly share the merged document via email, messaging apps, or cloud storage using the native Android share sheet.
 
-   ```bash
-   npm install
-   ```
+## 📱 App Flow
 
-2. Start the app
+1. **Home Screen:** Start by tapping the "Select Files" button to open your device's file explorer.
+2. **File Selection:** Choose the PDFs you wish to combine.
+3. **Selected Files View:** Review your chosen files. Here, you can see the file size and page count for each document. You can add more files, rearrange their order, preview them, or remove them.
+4. **Merge Process:** Tap "Merge PDF". A loading screen will appear while the app processes your request.
+5. **Success Screen:** Once finished, you are presented with the merged document's details (total pages and size) and options to Preview, Save to your preferred folder, or Share.
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 How to Use
 
-In the output, you'll find options to open the app in a
+1. Launch the **RePDF** app.
+2. Tap on the **Select Files** button.
+3. Browse your downloads or folders and select **two or more** PDF files.
+4. On the Selected Files screen, adjust the order if necessary by dragging the handle on the left of each file.
+5. Tap **Merge PDF** at the bottom of the screen.
+6. Wait for the "Success" screen.
+7. Choose to **Save** the file to your device or **Share** it directly with others! Tap **Start Over** to begin a new merge task.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+_RePDF - Making document management simple and efficient._
